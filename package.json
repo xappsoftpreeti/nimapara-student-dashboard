@@ -6,8 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "build": "echo \"Build completed\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":""
+    "vercel-build": "npm run build"
   },
 
   "keywords": ["student", "management", "mongodb", "nodejs"],
